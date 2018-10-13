@@ -26,8 +26,8 @@ export default {
     }
   },
   methods: {
-    appendBook(title, author) {
-      this.books.push({title, author});
+    appendBook(bookTitle, bookAuthor) {
+      this.books.push({title: bookTitle, author: bookAuthor});
     }
   }
 }
